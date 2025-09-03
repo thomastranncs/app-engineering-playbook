@@ -1,0 +1,34 @@
+site_name: NCS Engineering Playbook
+site_url: https://engineering-playbook.example.com
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  palette:
+    scheme: default
+    primary: blue
+    accent: deep orange
+
+  features:
+    - navigation.instant
+    - navigation.indexes
+
+markdown_extensions:
+  - admonition
+  - meta
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.details
+  - pymdownx.tasklist
+  - pymdownx.tabbed:
+      alternate_style: true
+
+copyright: © 2025 NCS Engineering. All rights reserved.
