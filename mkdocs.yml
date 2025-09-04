@@ -1,5 +1,6 @@
 site_name: NCS Engineering Playbook
-site_url: https://engineering-playbook.example.com
+site_url: https://thomastranncs.github.io/app-engineering-playbook/
+repo_url: https://github.com/thomastranncs/app-engineering-playbook
 theme:
   name: material
   font:
